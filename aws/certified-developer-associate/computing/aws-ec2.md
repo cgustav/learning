@@ -1,8 +1,8 @@
 # Amazon EC2
 
-![](../assets/img/aws_ec2_logo.png)
+![Amazon EC2 Logo](../assets/img/aws_ec2_logo.png)
 
-"Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform with over 475 instances and the ability to choose the latest processor, storage, networking, operating system and purchasing model to help you best fit your workload needs. (...)"
+_"Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform with over 475 instances and the ability to choose the latest processor, storage, networking, operating system and purchasing model to help you best fit your workload needs. (...)"_
 
 It is one of the most popular AWS services and offers on-demand computing capacity through different modalities, offering high performance and horizontal scalability.
 
@@ -15,7 +15,7 @@ It is one of the most popular AWS services and offers on-demand computing capaci
 
 ---
 
-## EC2 Configuration options
+## ⚙️ EC2 Configuration options
 
 EC2 Instances have multiple configuration options, some of them will have direct influence in the final service billing, other will be free but only accessible once you have at least one instance running.
 
@@ -31,7 +31,7 @@ EC2 Instances have multiple configuration options, some of them will have direct
 
 ---
 
-## EC2 User Data
+## 👤 EC2 User Data
 
 > > Bootstrap scripts are a set of launching commands that be executed once an EC2 Instance is launched for first time.
 
@@ -45,18 +45,18 @@ EC2 Instances have multiple configuration options, some of them will have direct
 
 ---
 
-## EC2 Instance types
+## 🖥️ EC2 Instance types
 
 "Amazon EC2 provides a wide selection of instance types optimized to fit different use cases. Instance types span various combinations of CPU, memory, storage, and networking capacity. They give you flexibility to choose the right combination of resources for your applications."
 
-### General purposes
+### \* General purposes
 
 _General-purpose instances provide a balanced mix of computing, memory and network resources._
 
 - Web Servers
 - Code repositories
 
-### Compute optimized
+### \* Compute optimized
 
 _Las instancias optimizadas para informática son ideales para las aplicaciones que dependen de los recursos informáticos y se benefician de los procesadores de alto rendimiento._
 
@@ -67,7 +67,7 @@ _Las instancias optimizadas para informática son ideales para las aplicaciones 
 - Scientific modeling and ML
 - Dedicated Gaming Servers
 
-### Memory Optimized
+### \* Memory Optimized
 
 _Memory optimized instances are designed to provide fastest performance for heavy workloads that processes large data sets in memory._
 
@@ -76,7 +76,7 @@ _Memory optimized instances are designed to provide fastest performance for heav
 - In-memory databases optimized for BI
 - Applications performing real-time processing of big unstructured data
 
-### Accelerated Computing
+### \* Accelerated Computing
 
 _In accelerated computing instances hardware accelerators and co-processors are used to perform tasks, such as calculating floating point numbers, processing graphics or searching for data patterns matches._
 
@@ -84,7 +84,7 @@ _In accelerated computing instances hardware accelerators and co-processors are 
 - Graph processing
 - Data pattern matching
 
-### Storage Optimized
+### \* Storage Optimized
 
 _Storage optimized instances are designed for workloads that require high sequential read and write access to very large data sets on local storage._
 
@@ -98,9 +98,9 @@ More information at: https://aws.amazon.com/es/ec2/instance-types/?nc1=h_ls
 
 ---
 
-## EC2 Instances Naming Convention
+## ✏️ EC2 Instances Naming Convention
 
-[image]
+![AWS EC2 Naming convention example](../assets/img/aws_ec2_naming_convention.png)
 
 | Instance    | vCPU | Mem (GiB) | Storage        | Network performance | EBS Bandwidth (Mbps) |
 | ----------- | ---- | --------- | -------------- | ------------------- | -------------------- |
@@ -112,7 +112,7 @@ More information at: https://aws.amazon.com/es/ec2/instance-types/?nc1=h_ls
 
 ---
 
-## EC2 AMI
+## 💾 EC2 AMI
 
 Amazon Machine Image is a repository provided by aws to find public (shared by relevant vendors, or config made by yourself) and specific EC2 customization setups.
 
@@ -171,7 +171,7 @@ You can launch AMI from:
 
 ---
 
-## EC2 Instances Purchasing Options
+## 💵 EC2 Instances Purchasing Options
 
 - **On-Demand Instances**: Short workload and predictable pricing.
 
@@ -235,7 +235,7 @@ AWS EC2 documentation provide fine grained details about EC2 Purchasing options:
 
 ---
 
-## EC2 Dedicated instances vs Dedicated Hosts
+## 🗄️ EC2 Dedicated instances vs Dedicated Hosts
 
 AWS differentiates between the performance of its two service modes for Amazon EC2
 
