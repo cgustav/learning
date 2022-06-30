@@ -19,6 +19,7 @@ AWS Provides a wide range of tools to make up one of the largest in the infrastr
   - [AWS AZs](#aws-azs)
   - [AWS Points of Presence](#aws-points-of-presence)
   - [Regional vs Global Services](#regional-vs-global-services)
+  - [TOC](#toc)
 
 ---
 
@@ -78,4 +79,11 @@ For example, the POPs are used for both AWS `CloudFront` to deliver content to e
 - [See the complete list of regional services](https://aws.amazon.com/en/about-aws/global-infrastructure/regional-product-services/)
 - [AWS Global infrastructure](https://aws.amazon.com/en/about-aws/global-infrastructure/)
 
+## TOC
+
 **This document is currently under construction (WIP)**
+
+1. [AWS IAM](security/aws-iam.md)
+2. [AWS PowerShell](security/powershell.md)
+3. [AWS EC2](computing/aws-ec2.md)
+4. [AWS EBS](storage/aws-ebs.md)
