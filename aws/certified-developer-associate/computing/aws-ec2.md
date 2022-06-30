@@ -132,7 +132,7 @@ You can launch AMI from:
 
 ---
 
-## EC2 Security Groups & Classic Ports
+## 🔐 EC2 Security Groups & Classic Ports
 
 - Security groups are the fundamental of networking security in AWS
 - They control how traffic is allowed into or out of our EC2 Instances
