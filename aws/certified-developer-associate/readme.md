@@ -1,4 +1,4 @@
-# AWS Certified Developer Associate Program DVA-01
+# AWS Certified Developer Associate Program DVA-C01
 
 This credential helps organizations identify and develop talent with critical skills for implementing cloud initiatives. Earning AWS Certified Developer – Associate validates the ability to write and deploy cloud-based applications.
 
@@ -13,7 +13,7 @@ This certification program counts with more than [x (WIP)] service modules.
 
 AWS Provides a wide range of tools to make up one of the largest in the infrastructure as a service industry. It has data centers and other infrastructure globally.
 
-- [AWS Certified Developer Associate Program DVA-01](#aws-certified-developer-associate-program-dva-01)
+- [AWS Certified Developer Associate Program DVA-C01](#aws-certified-developer-associate-program-dva-c01)
 - [AWS Service introduction](#aws-service-introduction)
   - [AWS Regions](#aws-regions)
   - [AWS AZs](#aws-azs)
@@ -87,3 +87,5 @@ For example, the POPs are used for both AWS `CloudFront` to deliver content to e
 2. [AWS PowerShell](security/powershell.md)
 3. [AWS EC2](computing/aws-ec2.md)
 4. [AWS EBS](storage/aws-ebs.md)
+5. [AWS EFS](storage/aws-efs.md)
+6. [AWS ELB & ASG](networking/aws-elb-asg.md)
