@@ -272,3 +272,13 @@ There are three types of scaling types, based on their scaling policies:
 - This is the most secure way of ensuring only the ALB can access the EC2 instances. Referencing by security groups in rules is an extremely powerful rule and many questions at the exam rely on it. Make sure you fully master the concepts behind it!
 
 - For each Auto Scaling Group, there's a Cooldown Period after each scaling activity. In this period, the ASG doesn't launch or terminate EC2 instances. This gives time to metrics to stabilize. The default value for the Cooldown Period is 300 seconds (5 minutes).
+
+</br>
+
+---
+
+</br>
+
+| Previous                |     |     |     |     | Next                             |
+| ----------------------- | --- | --- | --- | --- | -------------------------------- |
+| [AWS ELB](./aws-elb.md) |     |     |     |     | [AWS RDS](../storage/aws-rds.md) |

@@ -89,4 +89,5 @@ For example, the POPs are used for both AWS `CloudFront` to deliver content to e
 4. [AWS EBS](storage/aws-ebs.md)
 5. [AWS EFS](storage/aws-efs.md)
 6. [AWS ELB](networking/aws-elb.md)
-7. [AWS ELB](networking/aws-asg.md)
+7. [AWS ASG](networking/aws-asg.md)
+8. [AWS RDS](networking/aws-rds.md)
