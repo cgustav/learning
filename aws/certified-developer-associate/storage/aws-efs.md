@@ -129,6 +129,6 @@ Additionally:
 </br>
 </br>
 
-| Previous                |     |     |     |     | Next                                            |
-| ----------------------- | --- | --- | --- | --- | ----------------------------------------------- |
-| [AWS EBS](./aws-ebs.md) |     |     |     |     | [AWS ELB & ASG](./../networking/aws-elb-asg.md) |
+| Previous                |     |     |     |     | Next                                        |
+| ----------------------- | --- | --- | --- | --- | ------------------------------------------- |
+| [AWS EBS](./aws-ebs.md) |     |     |     |     | [AWS ELB & ASG](./../networking/aws-elb.md) |
